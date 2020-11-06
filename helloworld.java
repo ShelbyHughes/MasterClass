@@ -10,5 +10,19 @@ public class helloworld {
         System.out.println(myTotal);
         System.out.println(myFirstNumber);
         System.out.println(myLastOne);
+
+        /**
+         * 8 primitive data types:
+         * -int
+         * -boolean
+         * -byte
+         * -char
+         * -short
+         * -long
+         * -float
+         * -double
+         */
+
+         
     }
 }
