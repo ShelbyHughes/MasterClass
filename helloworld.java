@@ -23,6 +23,5 @@ public class helloworld {
          * -double
          */
 
-         //this is a comment
     }
 }
