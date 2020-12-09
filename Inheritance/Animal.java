@@ -8,7 +8,7 @@ public class Animal {
     private int size;
     private int weight;
 
-    public Animal(String name, int brain, int body, int size, int weight){
+    public Animal(String name, int brain, int body, int size, int weight) {
         this.name = name;
         this.brain = brain;
         this.body = body;
@@ -16,33 +16,31 @@ public class Animal {
         this.weight = weight;
     }
 
-    public void eat(){
-        System.out.println("Animal.eat() works");
+    public void eat() {
+        System.out.println("Animal.eat() called");
     }
 
-    public void move(){
+    public void move() {
 
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public int getBrain(){
+    public int getBrain() {
         return brain;
     }
 
-    public int getBody(){
+    public int getBody() {
         return body;
     }
 
-    public int getSize(){
+    public int getSize() {
         return size;
     }
 
-    public int getWeight(){
+    public int getWeight() {
         return weight;
     }
-
-
 }
